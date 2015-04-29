@@ -16,7 +16,7 @@ OS X and Homebrew assumed.
 
 In Kibana UI:
 
-# `[X] Use event times to create index names`
-# `Time-field name: @timestamp`
-# `Create`
-# `Discover`
+1. `[X] Use event times to create index names`
+1. `Time-field name: @timestamp`
+1. `Create`
+1. `Discover
