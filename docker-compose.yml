@@ -1,0 +1,18 @@
+logstash:
+  image: willdurand/elk
+  ports:
+    - "5043:5043"
+    - "8080:80"
+  volumes:
+    - "logstash:/etc/logstash"
+    - "ssl:/etc/ssl"
+    - "logs/logstash:/var/log/logstash"
+    - "logs/elasticsearch:/var/log/elasticsearch"
+  volumes_from:
+    - logstashdata
+
+logstashdata:
+  image: busybox
+  volumes:
+    - /data
+
