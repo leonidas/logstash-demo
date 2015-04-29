@@ -1,6 +1,6 @@
 # Logstash demo
 
-Uses [Docker image from willdurand](/willdurand/docker-elk)
+Uses [willdurand/docker-elk](/willdurand/docker-elk)
 
 ## Getting started
 
@@ -19,4 +19,4 @@ In Kibana UI:
 1. `[X] Use event times to create index names`
 1. `Time-field name: @timestamp`
 1. `Create`
-1. `Discover
+1. `Discover`
