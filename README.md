@@ -20,3 +20,7 @@ In Kibana UI:
 1. `Time-field name: @timestamp`
 1. `Create`
 1. `Discover`
+
+Send some sample messages to the logger:
+
+    nc $(boot2docker ip) 22000

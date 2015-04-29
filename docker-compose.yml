@@ -3,6 +3,7 @@ logstash:
   ports:
     - "5043:5043"
     - "8080:80"
+    - "22000:22000"
   volumes:
     - "logstash:/etc/logstash"
     - "ssl:/etc/ssl"
